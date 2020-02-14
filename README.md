@@ -1,11 +1,11 @@
 # challange
 retrieve data from url and display in a grid based layout containg
 
--name 
--city
--state
--end date
--icon supplied
+* name 
+* city
+* state
+* end date
+*i con supplied
 
 ## tools used
 retrofit: used for simple get network call
