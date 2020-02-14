@@ -8,10 +8,10 @@ retrieve data from url and display in a grid based layout containg
 *i con supplied
 
 ## tools used
-retrofit: used for simple get network call
+**retrofit:** used for simple get network call
 
-glide: for loading image urls into image views
+**glide:** for loading image urls into image views
 
-data binding: for simple data to view formatting
+**data binding:** for simple data to view formatting
 
-viewmodel: for intermediate between view / fragment and model /network calls
+**viewmodel:** for intermediate between view / fragment and model /network calls
