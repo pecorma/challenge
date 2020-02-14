@@ -12,10 +12,17 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/AppTheme.CardView">
+        style="@style/AppTheme.CardView"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="@{data.listener}">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{data.listener}">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/name_tv"

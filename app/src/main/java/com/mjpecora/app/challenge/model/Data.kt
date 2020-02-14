@@ -1,5 +1,7 @@
 package com.mjpecora.app.challenge.model
 
+import android.view.View
+
 data class Base(
     val data: List<Data>
 )
@@ -11,4 +13,6 @@ data class Data(
     val url: String,
     val venue: Venue,
     val icon: String
-)
+) {
+    var listener: View.OnClickListener? = null
+}
